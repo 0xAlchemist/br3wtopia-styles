@@ -1,0 +1,19 @@
+// Theme colours
+$dark:    #121212;
+$light:   #BFBFBF;
+$accent:  #79D9C2;
+
+// Default colours
+$green:   #67C50B;
+$yellow:  #BFA300;
+$red:     #B40000;
+
+// Theme colour locations
+$background: $dark !default;
+$text:       $light !default;
+$highlight:  $accent !default;
+
+// Default colour locations
+$success:    $green !default;
+$warning:    $yellow !default;
+$error:      $red !default;
