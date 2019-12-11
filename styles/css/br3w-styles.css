@@ -449,4 +449,5 @@ small {
     grid-gap: 1.333rem 1.333rem; }
 
 .box {
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 5.332rem; }

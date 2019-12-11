@@ -1,3 +1,4 @@
+// Strips unit of measurement from a value
 @function stripUnit($number) {
     @if type-of($number) == 'number' and not unitless($number) {
         @return $number / ($number * 0 + 1);
@@ -6,6 +7,7 @@
     @return $number;
 }
 
+// Calculates the exponential value of a number
 @function pow($number, $exponent) {
     $value: 1;
 
@@ -18,10 +20,12 @@
     @return $value;
 }
 
+// Strips rems unit before caluclating exponential value, then adds it back
 @function getPowRems($number, $exponent) {
     @return pow(stripUnit($number), $exponent) + 0rem;
 }
 
+// Multiplies type scale by font size to get a value for spacing
 @function getSpacing($fontSize, $scale: $scale) {
     @return $scale * $fontSize;
 }

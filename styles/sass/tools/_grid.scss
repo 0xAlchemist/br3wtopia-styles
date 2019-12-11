@@ -1,3 +1,4 @@
+// Create a block grid container with defined rows and columns
 @mixin blockGrid($columns: 2, $rows: 1) {
     display: grid;
     grid-template-columns: repeat($columns, 1fr);
