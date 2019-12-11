@@ -423,6 +423,13 @@ small {
 
 .grid-container {
   margin-bottom: 1.333rem; }
+  .grid-container > .grid-container {
+    margin-bottom: 0; }
+  .grid-container .full {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2; }
   .grid-container.halves {
     display: -ms-grid;
     display: grid;

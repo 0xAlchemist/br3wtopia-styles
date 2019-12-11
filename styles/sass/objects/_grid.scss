@@ -1,5 +1,14 @@
 .grid-container {
     margin-bottom: $rhythmUnit;
+
+    > .grid-container {
+        margin-bottom: 0;
+    }
+
+    .full {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+    }
     
     &.halves {
         @include blockGrid(2);
