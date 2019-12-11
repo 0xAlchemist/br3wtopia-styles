@@ -8,7 +8,8 @@
     "settings/type";
 // TOOLS: Mixins and functions. No CSS...
 @import
-    "tools/math";
+    "tools/math",
+    "tools/grid";
 // GENERIC: Things like CSS reset and normalize...
 @import
     "generic/normalize",
@@ -17,8 +18,8 @@
 @import 
     "elements/typography";
 // OBJECTS: Class based selectors which define undecorated design patterns...
-// @import
-    // "objects/grid"
+@import
+    "objects/grid";
 // COMPONENTS: Specific UI components...
 // UTILITIES: Nasty little hacks, helper classes, anything uber-specific...
 @import 

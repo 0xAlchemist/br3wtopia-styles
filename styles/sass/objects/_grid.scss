@@ -1,0 +1,15 @@
+.grid-container {
+    margin-bottom: $rhythmUnit;
+    
+    &.halves {
+        @include blockGrid(2);
+    }
+
+    &.quarters {
+        @include blockGrid(4);
+    }
+
+    &.twelfths {
+        @include blockGrid(12);
+    }
+}

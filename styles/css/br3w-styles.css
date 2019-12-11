@@ -376,7 +376,7 @@ fieldset {
 ** --spacing
 */
 html {
-  font-size: 18px; }
+  font-size: 16px; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -416,3 +416,33 @@ h6 {
 
 small {
   font-size: 0.8rem; }
+
+.grid-container {
+  margin-bottom: 1.333rem; }
+  .grid-container.halves {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[1];
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 1.333rem 1.333rem; }
+  .grid-container.quarters {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: (1fr)[1];
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 1.333rem 1.333rem; }
+  .grid-container.twelfths {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[12];
+    grid-template-columns: repeat(12, 1fr);
+    -ms-grid-rows: (1fr)[1];
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 1.333rem 1.333rem; }
+
+.box {
+  background-color: rgba(0, 0, 0, 0.4); }
