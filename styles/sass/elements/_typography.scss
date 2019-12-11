@@ -1,0 +1,56 @@
+/* Typography Settings Defined in "settings/type"
+** --fontSize
+** --rhythmUnit
+** --spacing
+*/
+
+html {font-size: $fontSize;}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: $spacing;
+}
+
+p {margin-bottom: $spacing;}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: $spacing 0 $spacing;
+    font-weight: 700;
+}
+
+$h1PowRems: getPowRems($rhythmUnit, 5);
+h1 {
+    margin-top: 0;
+    font-size: $h1PowRems;
+    line-height: getSpacing($h1PowRems);
+}
+
+$h2PowRems: getPowRems($rhythmUnit, 4);
+h2 {
+    font-size: $h2PowRems;
+    line-height: getSpacing($h2PowRems);
+}
+
+$h3PowRems: getPowRems($rhythmUnit, 3);
+h3 {
+    font-size: $h3PowRems;
+    line-height: getSpacing($h3PowRems);
+}
+
+$h4PowRems: getPowRems($rhythmUnit, 2);
+h4 {
+    font-size: $h4PowRems;
+    line-height: getSpacing($h4PowRems);
+}
+
+h5 {
+    font-size: $rhythmUnit;
+    line-height: $spacing;
+}
+
+h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+small {font-size: 0.8rem;}
