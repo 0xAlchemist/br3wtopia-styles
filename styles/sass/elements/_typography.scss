@@ -1,56 +1,50 @@
 /* Typography Settings Defined in "settings/type"
 ** --fontSize
 ** --rhythmUnit
-** --spacing
 */
 
 html {font-size: $fontSize;}
 
 body {
     font-family: 'Montserrat', sans-serif;
-    line-height: $spacing;
+    line-height: $rhythmUnit;
 }
 
-p {margin-bottom: $spacing;}
+p {margin-bottom: $rhythmUnit;}
 
 h1, h2, h3, h4, h5, h6 {
-    margin: $spacing 0 $spacing;
+    margin: $rhythmUnit 0 $rhythmUnit;
     font-weight: 700;
 }
 
-$h1PowRems: getPowRems($rhythmUnit, 5);
 h1 {
     margin-top: 0;
-    font-size: $h1PowRems;
-    line-height: getSpacing($h1PowRems);
+    font-size: getPowRems($rhythmUnit, 4);
+    line-height: $rhythmUnit * 4;
 }
 
-$h2PowRems: getPowRems($rhythmUnit, 4);
 h2 {
-    font-size: $h2PowRems;
-    line-height: getSpacing($h2PowRems);
+    font-size: getPowRems($rhythmUnit, 3);
+    line-height: $rhythmUnit * 3;
 }
 
-$h3PowRems: getPowRems($rhythmUnit, 3);
 h3 {
-    font-size: $h3PowRems;
-    line-height: getSpacing($h3PowRems);
+    font-size: getPowRems($rhythmUnit, 2);
+    line-height: $rhythmUnit * 2;
 }
 
-$h4PowRems: getPowRems($rhythmUnit, 2);
 h4 {
-    font-size: $h4PowRems;
-    line-height: getSpacing($h4PowRems);
+    font-size: $rhythmUnit;
+    line-height: $rhythmUnit;
 }
 
 h5 {
-    font-size: $rhythmUnit;
-    line-height: $spacing;
+    font-size: 1.25rem;
+    line-height: 1rem;
 }
 
 h6 {
     font-size: 1rem;
-    line-height: 1.5rem;
 }
 
 small {font-size: 0.8rem;}

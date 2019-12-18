@@ -377,46 +377,44 @@ main {
 /* Typography Settings Defined in "settings/type"
 ** --fontSize
 ** --rhythmUnit
-** --spacing
 */
 html {
-  font-size: 16px; }
+  font-size: 18px; }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.77689rem; }
+  line-height: 1.5rem; }
 
 p {
-  margin-bottom: 1.77689rem; }
+  margin-bottom: 1.5rem; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1.77689rem 0 1.77689rem;
+  margin: 1.5rem 0 1.5rem;
   font-weight: 700; }
 
 h1 {
   margin-top: 0;
-  font-size: 4.20873rem;
-  line-height: 5.61023rem; }
+  font-size: 5.0625rem;
+  line-height: 6rem; }
 
 h2 {
-  font-size: 3.15733rem;
-  line-height: 4.20873rem; }
+  font-size: 3.375rem;
+  line-height: 4.5rem; }
 
 h3 {
-  font-size: 2.36859rem;
-  line-height: 3.15733rem; }
+  font-size: 2.25rem;
+  line-height: 3rem; }
 
 h4 {
-  font-size: 1.77689rem;
-  line-height: 2.36859rem; }
+  font-size: 1.5rem;
+  line-height: 1.5rem; }
 
 h5 {
-  font-size: 1.333rem;
-  line-height: 1.77689rem; }
+  font-size: 1.25rem;
+  line-height: 1rem; }
 
 h6 {
-  font-size: 1rem;
-  line-height: 1.5rem; }
+  font-size: 1rem; }
 
 small {
   font-size: 0.8rem; }
@@ -432,7 +430,7 @@ select {
   border-radius: 0;
   color: #999999;
   display: block;
-  padding: 0.6665rem;
+  padding: 0.75rem;
   width: 100%;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
@@ -449,11 +447,11 @@ select {
     transition: all .5s; }
 
 textarea {
-  line-height: 1.77689rem;
+  line-height: 1.5rem;
   resize: none; }
 
 .grid-container {
-  margin-bottom: 1.333rem; }
+  margin-bottom: 1.5rem; }
   .grid-container > .grid-container {
     margin-bottom: 0; }
   .grid-container .full {
@@ -468,7 +466,7 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: (1fr)[1];
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1.333rem 1.333rem; }
+    grid-gap: 1.5rem 1.5rem; }
   .grid-container.thirds {
     display: -ms-grid;
     display: grid;
@@ -476,7 +474,7 @@ textarea {
     grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: (1fr)[1];
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1.333rem 1.333rem; }
+    grid-gap: 1.5rem 1.5rem; }
   .grid-container.quarters {
     display: -ms-grid;
     display: grid;
@@ -484,7 +482,7 @@ textarea {
     grid-template-columns: repeat(4, 1fr);
     -ms-grid-rows: (1fr)[1];
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1.333rem 1.333rem; }
+    grid-gap: 1.5rem 1.5rem; }
   .grid-container.twelfths {
     display: -ms-grid;
     display: grid;
@@ -492,20 +490,20 @@ textarea {
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-rows: (1fr)[1];
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1.333rem 1.333rem; }
+    grid-gap: 1.5rem 1.5rem; }
 
 body {
   background-color: #121212;
   color: #BFBFBF; }
 
 section {
-  margin-bottom: 7.998rem; }
+  margin-bottom: 9rem; }
 
 .box {
   background-color: #383838;
-  min-height: 5.332rem; }
+  min-height: 4.5rem; }
   .box.image {
-    min-height: 10.664rem; }
+    min-height: 12rem; }
 
 .primary {
   background-color: #121212; }
@@ -550,12 +548,12 @@ section {
     color: #3dc8a7; }
 
 .swatch {
-  padding: 0.6665rem; }
+  padding: 0.75rem; }
   .swatch > div {
-    padding: 1.9995rem 2.33275rem 0; }
+    padding: 2.25rem 2.625rem 0; }
   .swatch span {
     display: block;
-    padding-top: 0.6665rem;
+    padding-top: 0.75rem;
     text-align: center; }
 
 .icons .box {
@@ -584,4 +582,4 @@ section {
   color: #79D9C2; }
 
 .field-wrap {
-  margin-bottom: 1.333rem; }
+  margin-bottom: 1.5rem; }

@@ -10,7 +10,7 @@ section {
 // Utility classes
 .box {
     background-color: $primary-light;
-    min-height: 4 * $rhythmUnit;
+    min-height: 3 * $rhythmUnit;
 
     &.image {
         min-height: 8 * $rhythmUnit;
