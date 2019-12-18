@@ -1,12 +1,26 @@
 // Theme colours
 $dark:    #121212;
 $light:   #BFBFBF;
-$accent:  #79D9C2;
+$blue:    #79D9C2;
 
 // Default colours
 $green:   #67C50B;
 $yellow:  #BFA300;
 $red:     #B40000;
+
+$primary: $dark;
+$secondary: $light;
+$accent: $blue;
+
+// Shades
+$primary-light: lighten($primary, 15%);
+$primary-dark: darken($primary, 15%);
+
+$secondary-light: lighten($secondary, 15%);
+$secondary-dark: darken($secondary, 15%);
+
+$accent-light: lighten($accent, 15%);
+$accent-dark: darken($accent, 15%);
 
 // Theme colour locations
 $background: $dark !default;
